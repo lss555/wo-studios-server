@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const workoutSchema = mongoose.Schema({
-  registerationNumber: Number,
+  registrationNumber: Number,
   name: String,
   date: { type: Date, default: Date.now },
   description: String,
